@@ -1,0 +1,61 @@
+.header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    grid-area: header;
+    background-color: crimson;
+    color: white;
+}
+
+.main {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    grid-area: main;
+}
+
+.footer {
+    height: 20vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    grid-area: footer;
+    background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    gap: 1px;
+}
+
+.imgdog {
+    height: 15em;
+}
+
+.cardbody {
+    text-align: center;
+}
+
+.badge_sty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
